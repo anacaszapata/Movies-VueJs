@@ -1,0 +1,19 @@
+
+
+@for $i from 1 through 100 {
+    .p-#{$i} {
+        padding: $i+px !important;
+    }
+}
+
+@for $i from 5 through 50 {
+    .f-#{$i} {
+        font-size: $i+px !important;
+    }
+}
+
+@for $i from 1 through 100 {
+    .w-#{$i} {
+        width: $i*1% !important;
+    }
+}
